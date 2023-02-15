@@ -1,0 +1,143 @@
+input{
+    height: 60px;
+    width: 300px;
+    border-radius: 15px;
+    border: none;
+    background-color:#E0DFD5 ;
+    box-shadow: 3px 3px 3px;
+}
+button{
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    color: antiquewhite;
+    font-size: 2vw;
+}
+h1{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.transcation{
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.transcation-right{
+    text-align: right;
+}
+.transcation-left-inner{
+    margin-bottom: 10px;
+}
+.transcation-right-inner{
+    margin-bottom: 10px;
+    color: red;
+
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.1vw;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#297171;
+    color:white;
+
+    background-color: #393E46;
+    
+    padding: 20px;
+
+}
+body {
+    background-attachment: fixed;
+    /* background-image: linear-gradient(); */
+    background-color: #cde2f6;
+    background: red; /* fallback color */
+    background: linear-gradient( to bottom, red, blue);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+body, html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+
+
+  
+  }
+.bank-logo{
+    margin-right: 25%;
+}
+.popup{
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    animation: hideAnimation 0s ease-in 5s;
+  animation-fill-mode: forwards;
+    padding: 20px;
+    position: absolute;
+    top: 90%;
+    left: 2%;
+    display: none;
+    
+    border-radius: 20px;
+    text-align: center;
+    
+    background-color: green;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+@keyframes hideAnimation {
+    to {
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
+  }
+*{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Desktop view */
+
+@media screen and (min-width: 700px) {
+    .main{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .transcation{
+        width: 600px;
+        
+    }
+    button{
+        margin-left: 200px;
+    } 
+    input{
+        margin-left: 200px;
+    }
+    h1{
+        margin-left: 200px;
+    }
+    
+  }
